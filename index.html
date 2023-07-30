@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Downloader</h1>
+        <p>Írd be vagy illeszd be a YouTube videó linkjét, amit letölteni szeretnél.</p>
+        <form id="form">
+            <input type="text" id="input" placeholder="https://www.youtube.com/watch?v=...">
+            <button type="button" id="paste">Paste</button>
+            <button type="submit" id="download">Download</button>
+        </form>
+        <div id="options" hidden>
+            <p>Válaszd ki, hogy milyen formátumban szeretnéd letölteni a videót.</p>
+            <button type="button" id="mp3">MP3</button>
+            <button type="button" id="mkv">MKV</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
